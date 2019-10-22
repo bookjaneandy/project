@@ -1,0 +1,12 @@
+com\bookJane\testCases\TC_BKJ_002.class
+com\bookJane\utilities\XLUtils.class
+com\bookJane\pageObjects\createShiftPage.class
+com\bookJane\testCases\BaseClass.class
+com\bookJane\utilities\Reporting.class
+com\bookJane\pageObjects\LoginPage.class
+com\bookJane\pageObjects\DashboardPage.class
+com\bookJane\pageObjects\HomePage.class
+com\bookJane\testCases\TC_BKJ_016.class
+com\bookJane\utilities\ReadConfig.class
+com\bookJane\testCases\TC_BKJ_001.class
+com\bookJane\pageObjects\RegistrationPage.class

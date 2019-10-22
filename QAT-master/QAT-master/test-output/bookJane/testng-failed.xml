@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [bookJane]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.bookJane.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="bookJane Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.bookJane.testCases.createShiftTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="createShiftTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.bookJane.testCases.createShiftTest -->
+    </classes>
+  </test> <!-- bookJane Test1(failed) -->
+</suite> <!-- Failed suite [bookJane] -->
